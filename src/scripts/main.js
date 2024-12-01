@@ -369,7 +369,7 @@ people.forEach((person) => {
   const ageCell = newRow.insertCell();
   const centuryCell = newRow.insertCell();
 
-  // Fillinf cells with data
+  // Filling cells with data
   nameCell.textContent = person.name;
   genderCell.textContent = person.sex;
   bornCell.textContent = person.born;
